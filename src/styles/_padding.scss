@@ -1,0 +1,25 @@
+$padding-base-value: 16px !default;
+
+.no-padding {
+  padding: 0;
+}
+
+.padding {
+  padding: $padding-base-value;
+}
+
+.padding-top {
+  padding-top: $padding-base-value;
+}
+
+.padding-bottom {
+  padding-bottom: $padding-base-value;
+}
+
+.padding-left {
+  padding-left: $padding-base-value;
+}
+
+.padding-right {
+  padding-right: $padding-base-value;
+}

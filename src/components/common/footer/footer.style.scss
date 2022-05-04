@@ -1,0 +1,46 @@
+
+footer {
+    display: block;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 10vh;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: left;
+        color: #ffd701;
+    }
+    p {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .footer-brand {
+        width: 50px;
+        position: relative;
+        margin-bottom: 16px;
+        display: block;
+    }
+
+    .links {
+        list-style: none;
+        margin-left: -40px;
+        li {
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: left;
+            a{
+                color: #ffffff;
+            }
+        }
+    }
+}

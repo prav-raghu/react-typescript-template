@@ -1,0 +1,70 @@
+@import "variables";
+@import "custom";
+@import "margin";
+@import "padding";
+
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 25vh 10vw;
+  text-align: center;
+  border-bottom: solid 1px #ededed;
+  position: relative;
+
+  p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-top: 25px;
+  }
+}
+
+.light {
+  color: $light;
+}
+
+.blue {
+  color: $blue;
+}
+
+.pink {
+  color: $pink;
+}
+
+.green {
+  color: $green;
+}
+
+.pull-right {
+  float: right;
+}
+
+.full-width {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
